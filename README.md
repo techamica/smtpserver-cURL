@@ -50,13 +50,13 @@ Following that, you can choose to include the `email subject` if desired.
 ```bash
   -F subject='Test Mail'
 ```
-Subsequently, provide the HTML content for the email body. Alternatively, you can provide the text version of the body. It is mandatory to pass one of these options.
+Subsequently, provide the `HTML` content for the email body. Alternatively, you can provide the `Text version` of the body. It is `mandatory` to pass one of these options.
 
 ```bash
   -F text='This is a test mail'
   -F html='This is a test mail'
 ```
-In conclusion, you have the choice to include attachments with your email. This step is optional.
+In conclusion, you have the choice to include `attachments` with your email. This step is optional.
 
 ```bash
   -F attachment_1=@<ABSOLUTE PATH TO FILE>
