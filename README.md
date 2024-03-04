@@ -66,11 +66,11 @@ In conclusion, you have the choice to include `attachments` with your email. Thi
 
 ## Screenshot
 
-![CompleteCode Screenshot](https://smtpserver.com/documentation/img/node-complete.png)
+![CompleteCode Screenshot](https://smtpserver.com/assets/images/smtp_curl.png)
 
 
 ## Used By
 
-This project is used by SMTPServer:
+This project is used by `SMTPServer`:
 
 - [SMTP SERVER](https://smtpserver.com/)
