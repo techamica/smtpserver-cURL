@@ -43,18 +43,18 @@ Following that, include the `sender's email address`, which is a `required field
 Subsequently, you have the option to include the `sender's name`, if desired.
 
 ```bash
-  -F from_name='Good Tester'
+  -F from_name='<SENDER NAME>'
 ```
 Following that, you can choose to include the `email subject` if desired.
 
 ```bash
-  -F subject='Test Mail'
+  -F subject='<SUBJECT>'
 ```
 Subsequently, provide the `HTML` content for the email body. Alternatively, you can provide the `Text version` of the body. It is `mandatory` to pass one of these options.
 
 ```bash
-  -F text='This is a test mail'
-  -F html='This is a test mail'
+  -F text='<TEXT BODY>'
+  -F html='<HTML BODY>'
 ```
 In conclusion, you have the choice to include `attachments` with your email. This step is optional.
 
